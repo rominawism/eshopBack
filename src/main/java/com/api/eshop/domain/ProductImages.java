@@ -17,7 +17,12 @@ public class ProductImages {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
-    private String url;
+
+    @Column(columnDefinition = "longtext")
+    private String original;
+
+    @Column(columnDefinition = "longtext")
+    private String thumbnail;
 
     @ManyToOne
     @JoinColumn(foreignKey = @ForeignKey(name = "ProductImages_fk_1"))

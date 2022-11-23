@@ -26,6 +26,7 @@ public class Products {
     private int price;
     private int priceWithDiscount = 0;
     private boolean incredibleOffers;
+    private boolean dailySuggest;
     @Column(length = 1000)
     private String indexImageUrl;
 

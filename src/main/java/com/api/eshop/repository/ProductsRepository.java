@@ -9,5 +9,7 @@ import java.util.List;
 @Repository
 public interface ProductsRepository extends JpaRepository<Products , Long> {
     List<Products> findByIncredibleOffersIsTrue();
+    List<Products> findByDailySuggestIsTrue();
+    List<Products> findByNameContains(String searchText);
 }
 
