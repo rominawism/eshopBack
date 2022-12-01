@@ -44,6 +44,19 @@ public class ProductsController {
             return new ResponseEntity(result , HttpStatus.BAD_REQUEST);
     }
 
+
+    @GetMapping("name/{name}")
+    @CrossOrigin("*")
+    public ResponseEntity getById(@PathVariable String name) {
+        Products result = service.getByName(name);
+        if(result!=null) {
+            result.getImages().size();
+            return new ResponseEntity(result, HttpStatus.OK);
+        }
+        else
+            return new ResponseEntity(result , HttpStatus.BAD_REQUEST);
+    }
+
     @GetMapping("incredibleOffers")
     @CrossOrigin("*")
     public ResponseEntity getAllIncredibleOffers() {
@@ -79,7 +92,13 @@ public class ProductsController {
     public ResponseEntity getProductsByCategoryName(@PathVariable String categoryName) {
 
          ProductsCategories result = productsCategoriesService.getByName(categoryName);
-         result.getProducts().size();
+       try {
+           result.getProducts().size();
+       }
+       catch (Exception e)
+       {
+
+       }
         return new ResponseEntity(result, HttpStatus.OK);
     }
 }

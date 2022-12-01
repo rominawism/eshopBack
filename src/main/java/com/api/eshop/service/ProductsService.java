@@ -32,4 +32,9 @@ public class ProductsService {
     public List<Products> searchProducts(String textToSearch) {
         return repository.findByNameContains(textToSearch);
     }
+
+    public  Products getByName(String name)
+    {
+        return repository.findByName(name);
+    }
 }

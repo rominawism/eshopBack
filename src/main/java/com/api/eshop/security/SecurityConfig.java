@@ -69,6 +69,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .antMatchers("/*").permitAll()
                 .antMatchers(SecurityConstants.STATIC_CONTENTS).permitAll()
                 .antMatchers(SecurityConstants.PRODUCTS).permitAll()
+                .antMatchers(SecurityConstants.SWAGGER_URI).permitAll()
+                .antMatchers(SecurityConstants.SWAGGER_UI).permitAll()
+                .antMatchers(SecurityConstants.SWAGGER_UI2).permitAll()
                 .anyRequest().authenticated();
 
                 http.addFilterBefore(jwtAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class);

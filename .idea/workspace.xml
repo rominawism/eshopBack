@@ -5,24 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c17183c-12f8-487f-9cf5-270f1aa2c149" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/MainSliderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/TopBannerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/TopBanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/repository/ProductsCategoriesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/repository/TopBannerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/service/ProductsCategoriesService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/service/TopBannerService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/ProductsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/controller/ProductsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/ProductImages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/ProductImages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/Products.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/HeaderBanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/domain/HeaderBanner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/repository/ProductsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/repository/ProductsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/security/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/security/SecurityConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/security/SecurityConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/service/MainSliderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/service/MainSliderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/api/eshop/service/ProductsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/api/eshop/service/ProductsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/controller/ProductsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/controller/ProductsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Products.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/domain/Products.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/repository/ProductsRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/repository/ProductsRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/security/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/security/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/security/SecurityConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/security/SecurityConstants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/service/MainSliderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/service/MainSliderService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/api/eshop/service/ProductsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/api/eshop/service/ProductsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vitrinbox.iml" beforeDir="false" afterPath="$PROJECT_DIR$/vitrinbox.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +118,10 @@
       <workItem from="1669012836091" duration="5079000" />
       <workItem from="1669040493054" duration="125000" />
       <workItem from="1669093547221" duration="6211000" />
-      <workItem from="1669177936741" duration="3594000" />
+      <workItem from="1669177936741" duration="3964000" />
+      <workItem from="1669210497682" duration="1119000" />
+      <workItem from="1669274064764" duration="591000" />
+      <workItem from="1669365497428" duration="4650000" />
     </task>
     <servers />
   </component>
